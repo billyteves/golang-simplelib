@@ -1,4 +1,4 @@
 # The name of this package.
-package: usautoparts.net/billyteves/golang-simplelib
+package: github.com/billyteves/golang-simplelib
 
 # External dependencies.
