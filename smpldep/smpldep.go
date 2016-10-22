@@ -9,5 +9,6 @@ type alertCounter int
 // NewAlertCounter creates and returns objects of
 // the unexported type alertCounter.
 func NewAlertCounter(value int) alertCounter {
-	return alertCounter(value)
+    fmt.Println("I am from dependency")
+    return alertCounter(value)
 }
