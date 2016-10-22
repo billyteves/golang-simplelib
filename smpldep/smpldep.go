@@ -4,6 +4,10 @@ import (
     "fmt"
 )
 
-func getSampleDependency() {
-    fmt.Println("hello from getSampleDependency() method")
+type alertCounter int
+
+// NewAlertCounter creates and returns objects of
+// the unexported type alertCounter.
+func NewAlertCounter(value int) alertCounter {
+	return alertCounter(value)
 }
